@@ -1,0 +1,67 @@
+.show {display: block;}
+
+.dropbtn {
+    background-color: none;
+    padding: 16px;
+    font-style:normal;
+    color: #493545;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    font-style: italic;
+}
+
+.box {
+    background-color: #fff7f4;
+    border-color:#ccbcc9;
+    max-width: 80%;
+    border-radius: 8px;
+}
+.normalize {
+    text-decoration: none;
+}
+
+.dropped-content {
+    color:#3a3539
+}
+
+body {
+  background-image: url("images/istockphoto-1064140298-612x612.jpg");
+  background-size: cover;
+  font-family: 'alfena-pixel', serif;
+  color:#3a3539
+}
+
+a:link {
+  color: #eba9c4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #f883b2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcd0ea;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 0, 132);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+h1 {
+    margin: 10px;
+}
+
+p {
+    margin: 10px
+}
