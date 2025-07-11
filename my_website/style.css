@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "alfena-pixel";
-  src: url("\fonts\alfena-pixel\AlfenaPixel-Regular_demo.otf") format("opentype");
+  src: url("/fonts/alfena-pixel/AlfenaPixel-Regular_demo.otf") format("opentype");
 }
 
 body {
@@ -34,7 +34,7 @@ h2 {
 
 p {
   background-color:transparent;
-  font-family: "alfena-pixel"
+  font-family: "alfena-pixel";
 }
 
 a:link {
