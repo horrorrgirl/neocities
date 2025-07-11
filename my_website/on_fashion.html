@@ -23,51 +23,32 @@
         font-style: italic;
     }
 
-    .dropdown {
-        position: relative;
-        display: inline-block;
+    .box {
+        background-color: #fff7f4;
+        border-color:#ccbcc9
     }
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        overflow: auto;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-    }
-
-    .entry {
-        
-    }
-
     .normalize {
         text-decoration: none;
+    }
+
+    .dropped-content {
+        color:#3a3539
     }
 </style>
 
 <body>
     <h1>on fashion</h1>
     <p>hi!! Welcome to my fashion page. You can click on any of the entry titles to read more on the topic. They're ordered by date :)</p>
+    <p> & if u accidentally clicked on this page & wanna go back home, just click <a href="index.html">here</a>!</p>
 
-    <div class="dropdown">
+    <div class="box">
         <h2 class="dropbtn" data-dropped="droppedElement0">> (7/11/2025) thoughts about consumerism in fashion</h2>
-        <div id="droppedElement0" style="display:none;">
+        <div class="dropped-content" id="droppedElement0" style="display:none;">
             <p>this is a test mostly lol</p>
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
     </div>
-
-    <p id="tester"></p>
 
     <script>
         /* add click events for all elements of "dropbtn" class */
