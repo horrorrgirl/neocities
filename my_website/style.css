@@ -78,5 +78,5 @@ a:active {
 
 @font-face {
   font-family: blue-screen-font;
-  src: url(/fonts/blue-screen-font/BlueScreenPersonalUseRegular-0W1M9.ttf)
+  src: url(\fonts\blue-screen-font\BlueScreenPersonalUseRegular-0W1M9.ttf)
 }
