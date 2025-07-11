@@ -2,6 +2,18 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
+  /* FONTS */
+
+@font-face {
+  font-family: "blue-screen-font";
+  src: url("/fonts/blue-screen-font/BlueScreenPersonalUseRegular-0W1M9.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "alfena-pixel";
+  src: url("\fonts\alfena-pixel\AlfenaPixel-Regular_demo.otf") format("opentype");
+}
+
 body {
   background-image: url("images/istockphoto-1064140298-612x612.jpg");
   background-size: cover;
@@ -10,18 +22,19 @@ body {
 
 h1 {
   font-weight: bold;
-  font-family: blue-screen-font;
+  font-family: "blue-screen-font";
   color: #664343
 }
 
 h2 {
-  font-family: blue-screen-font;
+  font-family: "blue-screen-font";
   color:#fcecf3;
   font-style: italic
 }
 
 p {
   background-color:transparent;
+  font-family: "alfena-pixel"
 }
 
 a:link {
@@ -71,12 +84,4 @@ a:active {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-}
-
-
-/* FONTS */
-
-@font-face {
-  font-family: blue-screen-font;
-  src: url(\fonts\blue-screen-font\BlueScreenPersonalUseRegular-0W1M9.ttf)
 }

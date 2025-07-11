@@ -12,15 +12,15 @@
 
     .dropbtn {
         background-color: none;
-        color: black;
         padding: 16px;
-        font-size: 16px;
+        font-style:normal;
+        color: #493545;
         border: none;
         cursor: pointer;
     }
 
     .dropbtn:hover, .dropbtn:focus {
-        background-color: #2980B9;
+        font-style: italic;
     }
 
     .dropdown {
@@ -48,14 +48,18 @@
     .entry {
         
     }
+
+    .normalize {
+        text-decoration: none;
+    }
 </style>
 
 <body>
-    <h1>Clickable Dropdown</h1>
-    <p>Click on the button to open the dropdown menu.</p>
+    <h1>on fashion</h1>
+    <p>hi!! Welcome to my fashion page. You can click on any of the entry titles to read more on the topic. They're ordered by date :)</p>
 
     <div class="dropdown">
-        <h2 class="dropbtn" data-dropped="droppedElement0">hii test</h2>
+        <h2 class="dropbtn" data-dropped="droppedElement0">> (7/11/2025) thoughts about consumerism in fashion</h2>
         <div id="droppedElement0" style="display:none;">
             <p>this is a test mostly lol</p>
             <a href="#home">Home</a>
@@ -69,22 +73,24 @@
         /* add click events for all elements of "dropbtn" class */
         const allDropdowns = document.getElementsByClassName("dropbtn");
         for (let i = 0; i < allDropdowns.length; i++) {
-            const droppedElementId = allDropdowns[i].dataset.dropped;
             allDropdowns[i].addEventListener('click', 
                 function() {
-                    dropThatDown(droppedElementId);
+                    dropThatDown(allDropdowns[i]);
                 }
             );
         }
 
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content */
-        function dropThatDown(my_dropdown_id) {
-            var x = document.getElementById(my_dropdown_id);
+        function dropThatDown(dropper) {
+            const droppedElementId = dropper.dataset.dropped;
+            var x = document.getElementById(droppedElementId);
             if (x.style.display === "none") {
+                dropper.firstChild.nodeValue = "⌄ " + dropper.firstChild.nodeValue.slice(2);
                 x.style.display = "block";
             } 
             else {
+                dropper.firstChild.nodeValue = "> " + dropper.firstChild.nodeValue.slice(2);
                 x.style.display = "none";
             }
         } 
