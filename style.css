@@ -1,0 +1,82 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+body {
+  background-image: url("images/istockphoto-1064140298-612x612.jpg");
+  background-size: cover;
+  font-family: 'Times New Roman', serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: blue-screen-font;
+  color: #664343
+}
+
+h2 {
+  font-family: blue-screen-font;
+  color:#fcecf3;
+  font-style: italic
+}
+
+p {
+  background-color:transparent;
+}
+
+a:link {
+  color: #eba9c4;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #f883b2;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcd0ea;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(255, 0, 132);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+
+/* ALL CUSTOM CLASSES BELOW */
+
+.box {
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-top: 40px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fcf4f4;
+  border-radius: 8px;
+  padding: 10px;
+  background-color:#796f5b;
+  color:#fcf4f4
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+/* FONTS */
+
+@font-face {
+  font-family: blue-screen-font;
+  src: url(/fonts/blue-screen-font/BlueScreenPersonalUseRegular-0W1M9.ttf)
+}
