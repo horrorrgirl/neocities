@@ -60,7 +60,7 @@ a:active {
   font-family: "blue-screen-font";
   color:rgb(43, 39, 39);
   font-size:xx-large;
-
+  display:flex;
 }
 
 #navigation {
