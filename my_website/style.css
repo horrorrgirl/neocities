@@ -21,7 +21,7 @@ body {
 
 header {
   font-family: "blue-screen-font";
-  color:rgb(43, 39, 39);
+  color:rgb(185, 176, 176);
   font-size:xx-large;
 
 }
@@ -95,7 +95,11 @@ a:active {
 
 #header {
   grid-area: head;
-  background-color: #ebd1d9;
+  background-image: url("images/cloud_background.png");
+  background-position:center bottom;
+  background-repeat: repeat;
+  background-size: contain;
+  background-color: #474040;
   border-color:rgb(99, 95, 95);
   color:rgb(43, 39, 39);
   display:flex;
@@ -110,7 +114,7 @@ a:active {
 
 #intro {
   grid-area: intro;
-  background-color: #c2b8b8;
+  background-color: #ebd1d9;
   border-color:#7e7474;
   color:#2b2a29;
 }
