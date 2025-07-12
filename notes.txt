@@ -1,0 +1,12 @@
+TO DO 
+
+background images + border images for each box
+
+create the films page
+
+create the short stories page
+
+
+RESOURCES
+
+favicon creator I use - https://www.favicon.cc

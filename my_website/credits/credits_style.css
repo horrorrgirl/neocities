@@ -1,11 +1,11 @@
 @font-face {
   font-family: "blue-screen-font";
-  src: url("/fonts/blue-screen-font/BlueScreenPersonalUseRegular-0W1M9.ttf") format("truetype");
+  src: url("../fonts/blue-screen-font/BlueScreenPersonalUseRegular-0W1M9.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "alfena-pixel";
-  src: url("/fonts/alfena-pixel/AlfenaPixel-Regular_demo.otf") format("opentype");
+  src: url("../fonts/alfena-pixel/AlfenaPixel-Regular_demo.otf") format("opentype");
 }
 
 h1 {
