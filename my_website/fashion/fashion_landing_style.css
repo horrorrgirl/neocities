@@ -27,6 +27,11 @@ h2 {
     font-size: 48px;
 }
 
+p, ul {
+    background-color: #ecbfaa;
+    padding: 20px;
+    border-radius: 8px;
+}
 
 a:link {
     color: #0b2fc0;
@@ -39,7 +44,7 @@ a:hover {
 }
 
 .box {
-    background-color: #8eafe4;
+    background-color: #8eafe48d;
     border-color:#363c47;
     max-width: 80%;
     border-radius: 8px;
@@ -63,7 +68,7 @@ a:hover {
     "header main main main"
     "navigation main main main"
     "navigation main main main";
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 160px auto auto;
     grid-template-columns: 1 fr 2fr 1fr 1fr;
     gap: 3px
 }
