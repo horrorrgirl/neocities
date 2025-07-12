@@ -14,6 +14,12 @@ body {
   font-family: 'alfena-pixel', serif;
 }
 
+header {
+  font-family: "blue-screen-font";
+  color:rgb(43, 39, 39);
+  font-size:xx-large;
+}
+
 a:link {
   color: #eba9c4;
   background-color: transparent;
@@ -57,9 +63,7 @@ a:active {
   grid-area: head;
   background-color: #ebd1d9;
   border-color:rgb(99, 95, 95);
-  font-family: "blue-screen-font";
   color:rgb(43, 39, 39);
-  font-size:xx-large;
   display:flex;
 }
 
@@ -90,3 +94,15 @@ a:active {
   padding: 10px;
 
 }
+
+
+.catstuff_cat:hover span{ /*the span will display just on :hover state*/
+    display:block;
+    position:absolute;
+    top:-60px;
+    width:15em;
+    border:5px solid #0cf;
+    background-color:#cff; color:#000;
+    text-align: center;
+    padding:10px;
+  }
