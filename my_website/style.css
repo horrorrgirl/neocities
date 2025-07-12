@@ -20,6 +20,11 @@ header {
   font-size:xx-large;
 }
 
+p {
+  font-family:"alfena-pixel", serif;
+
+}
+
 a:link {
   color: #eba9c4;
   background-color: transparent;
@@ -53,8 +58,9 @@ a:active {
   height: auto;
   grid-template-areas:
     "head head head"
-    "intro intro nav";
-  grid-template-rows: auto auto;
+    "intro intro nav"
+    "soundcloud soundcloud soundcloud";
+  grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 30px
 }
@@ -71,7 +77,6 @@ a:active {
   grid-area: nav;
   background-color: #af9a94;
   border-color:#484342;
-  font-family:"alfena-pixel", serif;
   color:#2b2a29;
 }
 
@@ -79,9 +84,19 @@ a:active {
   grid-area: intro;
   background-color: #c2b8b8;
   border-color:#7e7474;
-  font-family:"alfena-pixel", serif;
   color:#2b2a29;
 }
+
+#soundcloud {
+  grid-area: soundcloud;
+    background-color: #c6b4ab;
+  border-color:#7a7369;
+  color:#2b2a29;
+}
+
+
+
+
 
 .box {
   display: block;
