@@ -8,6 +8,12 @@
   src: url("../fonts/alfena-pixel/AlfenaPixel-Regular_demo.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "pixel-game";
+  src: url("../fonts/pixel-game/Pixel\ Game.otf")
+}
+
+
 .show {display: block;}
 
 .dropbtn {
@@ -28,6 +34,7 @@
     border-color:#ccbcc9;
     max-width: 80%;
     border-radius: 8px;
+    padding: 3px;
 }
 .normalize {
     text-decoration: none;
@@ -69,6 +76,12 @@ a:active {
 
 h1 {
     margin: 30px;
+    font-family: "blue-screen-font"
+}
+
+h2 {
+  font-family: "pixel-game";
+  font-size: 32px;
 }
 
 p {
