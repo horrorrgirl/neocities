@@ -20,6 +20,7 @@ header {
     font-family: "mistletoe-magic";
     font-size: 64px;
     text-align: center;
+    font-weight: bold;
 }
 
 h2 {
@@ -68,7 +69,7 @@ a:hover {
     "header main main main"
     "navigation main main main"
     "navigation main main main";
-    grid-template-rows: 160px auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-columns: 1 fr 2fr 1fr 1fr;
     gap: 3px
 }
