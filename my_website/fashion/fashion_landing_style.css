@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "flaemische-kanzleischrift";
+    src: url("../fonts/flaemische-kanzleischrift/Flaemische\ Kanzleischrift.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "mistletoe-magic";
+    src: url("../fonts/mistletoe-magic/MistletoeMagic.ttf") format("truetype");
+}
+
+body {
+    background-image: url("images/chihiro043.jpg");
+    color:rgb(37, 43, 87);
+    padding-left: 10px;
+    margin-left: 10px;
+    font-family: "Times New Roman", serif;
+}
+
+header {
+    font-family: "mistletoe-magic";
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "flaemische-kanzleischrift";
+    font-size: 48px;
+}
+
+
+a:link {
+    color: #0b2fc0;
+    text-decoration: underline;
+}
+
+a:hover {
+    color:#0048ff;
+    text-decoration: underline;
+}
+
+.box {
+    background-color: #8eafe4;
+    border-color:#363c47;
+    max-width: 80%;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.done {
+    color:#ecbfaa;
+    font-weight:bold;
+    background-color:#806472;
+}
+
+
+/* GRID LAYOUT */
+
+#wrapper {
+    display: grid;
+    width: 80%;
+    height: auto;
+    grid-template-areas:
+    "header main main main"
+    "navigation main main main"
+    "navigation main main main";
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1 fr 2fr 1fr 1fr;
+    gap: 3px
+}
+
+#header {
+    grid-area: header;
+}
+
+#main {
+    grid-area: main;
+}
+
+#navigation {
+    grid-area: navigation;
+}
