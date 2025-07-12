@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>fashion landing</title>
+  </head>
+
+  <body>
+    <p>current outfit ideas I'm considering</p>
+    <ul>
+        <li> jean shorts + the white tights I own? + some sort of visible sock + big gray boots (altho its summer so idk)</li>
+        <li> the mary janes i just got + knee high frill socks + leg warmers ? or just in general styling the mary janes</li>
+        <li> the pink/white coquette lingerie thing i own + bright pink open stomach top? genuinely not sure this iwll look good tbh. </li>
+    </ul>
+
+    <p> lol click <a href="../index.html">here</a> to get back home</p>
+  </body>

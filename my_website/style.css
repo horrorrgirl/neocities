@@ -8,6 +8,11 @@
   src: url("fonts/alfena-pixel/AlfenaPixel-Regular_demo.otf") format("opentype");
 }
 
+@font-face {
+  font-family: "pixel-game";
+  src: url("fonts/pixel-game/Pixel\ Game.otf")
+}
+
 body {
   background-image: url("images/istockphoto-1064140298-612x612.jpg");
   background-size: cover;
@@ -18,6 +23,18 @@ header {
   font-family: "blue-screen-font";
   color:rgb(43, 39, 39);
   font-size:xx-large;
+
+}
+
+h2 {
+  font-family: "pixel-game";
+  font-size: 40px;
+}
+
+h3 {
+  text-decoration: underline;
+  padding: 3px;
+  margin: 3px;
 }
 
 p {
@@ -27,7 +44,8 @@ p {
 
 ul {
   margin-left: 0px;
-  padding-left:0px
+  padding-left:0px;
+  list-style-type: none;
 }
 
 li {
@@ -68,7 +86,8 @@ a:active {
   grid-template-areas:
     "head head head"
     "intro intro nav"
-    "soundcloud soundcloud soundcloud";
+    "soundcloud soundcloud soundcloud"
+    ". currently .";
   grid-template-rows: auto auto auto;
   grid-template-columns: 1fr 2fr 1fr;
   gap: 30px
@@ -86,7 +105,7 @@ a:active {
   grid-area: nav;
   background-color: #af9a94;
   border-color:#484342;
-  color:#2b2a29;
+  color:#51483f;
 }
 
 #intro {
@@ -98,12 +117,17 @@ a:active {
 
 #soundcloud {
   grid-area: soundcloud;
-    background-color: #c6b4ab;
+  background-color: #c6b4ab;
   border-color:#7a7369;
   color:#2b2a29;
 }
 
-
+#currently {
+  grid-area: currently;
+  background-color: #f4e6df;
+  border-color:#7a7369;
+  color:#524f4d;
+}
 
 
 
@@ -119,14 +143,3 @@ a:active {
 
 }
 
-
-.catstuff_cat:hover span{ /*the span will display just on :hover state*/
-    display:block;
-    position:absolute;
-    top:-60px;
-    width:15em;
-    border:5px solid #0cf;
-    background-color:#cff; color:#000;
-    text-align: center;
-    padding:10px;
-  }

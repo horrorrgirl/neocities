@@ -6,6 +6,9 @@ create the films page
 
 create the short stories page
 
+custom cursor
+
+for website home page header, i want it to look like the kitten is standing on something while still leaving good blank for the text...like pixel clouds or something? I think that'd be so cute
 
 RESOURCES
 
